@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
 
 
 
@@ -410,4 +413,78 @@ h6,
 }
 .scrollToTop_wraper {
   opacity: 0 !important;
+}
+#ext_menu-2 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-2 .navbar-caption {
+  color: #ffffff;
+}
+#ext_menu-2 .navbar-toggler {
+  color: #cccccc;
+}
+#ext_menu-2 .close-icon::before,
+#ext_menu-2 .close-icon::after {
+  background-color: #cccccc;
+}
+#ext_menu-2 .link,
+#ext_menu-2 .dropdown-item {
+  color: #cccccc;
+  font-family: 'Montserrat', sans-serif;
+}
+#ext_menu-2 .link {
+  font-size: 0.8rem;
+}
+#ext_menu-2 .dropdown-item,
+#ext_menu-2 .nav-dropdown-sm .link {
+  font-size: 0.866rem;
+}
+#ext_menu-2 .link:hover,
+#ext_menu-2 .dropdown-item:hover,
+#ext_menu-2 .link:focus,
+#ext_menu-2 .dropdown-item:focus {
+  color: #c0a375;
+}
+#ext_menu-2 .link[aria-expanded="true"],
+#ext_menu-2 .dropdown-menu {
+  background: #e6e6e6;
+}
+#ext_menu-2 .nav-dropdown-sm .link:focus,
+#ext_menu-2 .nav-dropdown-sm .link:hover,
+#ext_menu-2 .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-2 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#ext_menu-2 .navbar,
+#ext_menu-2 .nav-dropdown-sm,
+#ext_menu-2 .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-2 .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#ext_menu-2 .bg-color.transparent .link {
+  color: #cccccc;
+  transition: none;
+}
+#ext_menu-2 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-2 .bg-color.transparent.opened .link:hover,
+#ext_menu-2 .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#ext_menu-2 .link[aria-expanded="true"],
+#ext_menu-2 .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#header3-b .mbr-section-title,
+#header3-b .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-b H3 {
+  text-align: right;
+  font-size: 20px;
+}
+#content1-7 DIV {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }
